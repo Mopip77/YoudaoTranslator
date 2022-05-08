@@ -1,4 +1,5 @@
 export interface Result {
+  origininput: string;
   title: string;
   subtitle: string;
   arg: string;

@@ -135,7 +135,7 @@ class Youdao implements Adapter {
       subtitle = copy.slice(maxLength);
     }
 
-    this.results.push({ title, subtitle, arg, pronounce, quicklookurl });
+    this.results.push({ origininput: this.word, title, subtitle, arg, pronounce, quicklookurl });
     return this.results;
   }
 
